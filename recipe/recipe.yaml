@@ -1,5 +1,5 @@
 context:
-  version: 1.10.0
+  version: "1.11.0"
 
 package:
   name: tagref
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/stepchowfun/tagref/archive/v${{ version }}.tar.gz
-  sha256: 47d18c8fe3b037fd32fbeeeb91cf763840a809050a82a386dd56f73505a375fd
+  sha256: a5172df6b7e3c943d9c805ffd31ec4b00d226c34c989b9c3cefe29eb0499361c
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
